@@ -1,5 +1,5 @@
 # Heap
-Implementation of a binary heap with heapsort.
+Implementation of a binary-heap with heapsort.
 
 ## Installation
 Not launched like a gem yet.
@@ -11,7 +11,7 @@ Instantiate informing as parameter the operator to say if is a min-heap (:<) or 
 heap = Heap.new(:>)
 ```
 
-Insert like an array:
+Insert like in an array:
 
 ```ruby
 heap << 3
