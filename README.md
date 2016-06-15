@@ -1,5 +1,5 @@
 # Heap
-Implementation of a binary heap with heapsort.
+Implementation of a binary-heap and heapsort.
 
 ## Installation
 Not launched like a gem yet.
@@ -30,7 +30,7 @@ Heap.heapsort!([1,3,2,13,4,2,23,11,1,1,87,46], :<)
 ```
 
 ## Development
-After checking out the repo, run bin/setup to install dependencies. Then, run bin/console for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt or, alternatively, run `bundle console`. That will allow you to experiment.
 
 ## Contributing
 1. Fork it ( https://github.com/[my-github-username]/heap/fork )

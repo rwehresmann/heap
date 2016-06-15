@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["igoehresmann@gmail.com"]
 
   spec.summary       = %q{Binary-heap with heapsort implementantion.}
-  spec.homepage      = "https://github.com/rodrigo-ehresmann/binary-heap"
+  spec.homepage      = "https://github.com/rodrigo-ehresmann/heap"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
