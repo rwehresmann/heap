@@ -8,10 +8,10 @@ Not launched like a gem yet.
 Instantiate informing as parameter the operator to say if is a min-heap (:<) or max-heap (:>):
 
 ```ruby
-heap = Heap.new(:>)
+heap = BinaryHeap.new(:>)
 ```
 
-Insert like an array:
+Insert like in an array:
 
 ```ruby
 heap << 3
